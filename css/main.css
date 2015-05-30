@@ -1,0 +1,311 @@
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	cursor: default;
+	background: #1a1a1a;
+
+}
+
+.wrapper {
+	max-width: 100%;
+	height: 2.5em;
+	background: white;
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 2px solid #333;
+	position: fixed;
+	z-index: 200;
+	padding-bottom:.8em;
+	
+}
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+#page-header h1 {
+	float: left;
+	color: #333;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: .6em 0 0 0;
+}
+#page-header nav {
+	float: right;
+}
+#page-header nav li {
+	float: left;
+}
+#page-header nav a {
+	float: left;
+	display: block;
+	padding: 20px 15px;
+	color: black;
+	text-transform: uppercase;
+}
+#page-header nav li a:hover {
+	color: #d8cbae;
+	transition: all 0.2s ease;
+
+}
+
+h1 {
+	font-family: AsterismCleanBold-Regular;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+.wrapper h1{
+	padding-left: 1em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h3 {
+	font-size: .8em;
+	font-weight: light;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: .7em;
+
+}
+p {
+	margin: 0 0 1.5em 0;
+
+}
+
+.hamburger {	
+    display: none;
+    position: absolute;
+    top: -.8rem;
+    right: .5em;
+
+}
+
+.right {
+	margin-top: 6em;
+	float:left;
+	margin-left: 3em;
+    margin-bottom: 3em;
+    width: 100%;
+	
+}
+
+.right img {
+    padding-bottom: 1em;
+    margin-right: 1em;
+
+}
+
+.right-text {
+	width: 10%;
+	margin-right: 2em;
+	display: inline-block;
+}
+
+.right-text p {
+	font-size: .9em;
+	color: #666;
+
+}
+
+.right-combo {
+
+	display: inline-block;
+	padding-right: 20px;
+}
+.main {
+	width: 50%;
+	float: left;
+	height: 600px;
+	background: url(../images/main.jpg) center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	
+}	
+.main2 {
+	width: 50%;
+	float: left;
+	height: 600px;
+	background: url(../images/main2.jpg) center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	
+}	
+
+.room-feature {
+	color: #333;
+	float: right;
+	width: 40%;
+	text-align: left;
+	font-size: .9em;
+	line-height: 1.5;
+	padding-top: 20em;
+	padding-left: 2em;
+	padding-right: 1em;
+	height: 600px;
+	background: rgba(255, 255, 255, 0.6)
+
+}
+.main2 .room-feature {
+	background: rgba(229, 183, 87, 0.6);
+}
+
+.room-feature p {
+	width: 90%;
+}
+.mobile-only {
+	display:none;
+	float: left;
+}
+
+.button {
+
+	text-decoration: none;
+	text-transform: uppercase;
+     letter-spacing: .5px;
+     font-weight: bold;
+     font-size: .7em;
+     background: white;
+     color: black;
+     display: block;
+     text-align: center;
+     padding: .9em;
+     border: 2px solid #e9e9e9;
+     border-radius: 4px;
+     width: 160px;
+     margin-bottom: 2em;
+   
+	
+	
+}
+a.button:hover {
+	border: 2px solid #d8cbae;
+	transition: all 0.3s ease;
+
+}
+
+.special {
+	background: #333;
+	color: white;
+}
+
+a.special:hover {
+	border: 2px solid #d8cbae;
+	transition: all 0.1s ease;
+	color: #d8cbae;
+
+}
+.finds {
+	float:left;
+	/*height: 480px;*/
+	width: 100%;
+	background: #f2f2f2;
+	
+}
+
+.finds-text {
+	z-index: 100;   
+    margin-left: 40%;
+	margin-right:40%;
+	margin-top: 30px;
+}
+
+
+.finds img {
+	width: 60%;
+	height: auto;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+p.tag {
+	margin-left: 50%;
+	margin-right:50%;
+	margin-top: 60px;
+	margin-bottom: 0;
+	background: #e5b757;
+	border-radius: 200px;
+	padding: 20px;
+	width: 25px;
+	color: white;
+	
+}
+
+.grid-4 {
+	display:inline-block;
+	float: left;
+    padding:10px;
+
+}
+
+
+
+
+/* Mobile Styles */
+
+@media screen and (max-width:720px) {
+    .desktop-only {
+        display: none;
+    }
+
+	#page-header nav a {
+	padding: 15px 10px;
+	float: right;
+	}
+
+	#page-header .hamburger {
+	text-decoration: none;
+ 	color: #333;
+    font-size: 1.5em; 
+	}
+
+    .mobile-only {
+        display: inline-block;
+        
+    }
+
+    .grid-4{
+        display: block;
+        width: 100%;
+}
+
+    p {
+    	font-size: .9em;
+    }
+
+    .button {
+	width: 160px;
+	font-size: .8em;
+	} 
+}
+
+
+
+
