@@ -275,6 +275,7 @@ body.remodal-is-active .remodal {
 }
 
 .remodal-confirm {
+    margin-top: 2em;
     float: left;
     border: 1px solid #f47e76;
     color: white;
@@ -283,12 +284,12 @@ body.remodal-is-active .remodal {
 
 .remodal-confirm:hover {
    border: 1px solid black;
-   color: white;
    background: black;
     transition: all 0.3s ease;
 }
 
 .remodal-cancel {
+    margin-top: 2em;
     margin-right: 10px;
     float: left;
     border: 1px solid #999;
