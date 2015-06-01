@@ -34,25 +34,24 @@ h1 {
 	font-style: normal;
 	font-size: 4em;
 	line-height: 1;
-
 }
 
 h2 {
 	font-size: 1.5em;
 	font-weight: bold;
 }
+
 h3 {
 	font-size: .8em;
 	font-weight: light;
 	text-transform: uppercase;
 	text-align: center;
 	padding-bottom: .7em;
-
 }
+
 p {
 	margin: 0 0 1.5em 0;
 	font-family: 'Montserrat', sans-serif;
-
 }
 
 .wrapper {
@@ -65,10 +64,12 @@ p {
 	z-index: 200;
 	
 }
+
 #page-header a {
 	color: inherit;
 	text-decoration: none;
 }
+
 #page-header h1 {
 	float: left;
 	color: #333;
@@ -79,12 +80,15 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	
 }
+
 #page-header nav {
 	float: right;
 }
+
 #page-header nav li {
 	float: left;
 }
+
 #page-header nav a {
 	float: left;
 	display: block;
@@ -92,10 +96,10 @@ p {
 	color: black;
 	text-transform: uppercase;
 }
+
 #page-header nav li a:hover {
 	color: #d8cbae;
 	transition: all 0.2s ease;
-
 }
 
 .hamburger {	
@@ -119,7 +123,6 @@ p {
 }
 
 .right-text {
-	
 	text-align: center;
 	width: 100%;
 	/*border-bottom: 1px dotted #d8cbae;*/
@@ -145,8 +148,8 @@ p {
 	background: url(../images/main5.jpeg) center center no-repeat;
 	background-size: cover;
 	overflow: hidden;
-	
-}	
+}
+
 .main2 {
 	width: 50%;
 	float: left;
@@ -154,11 +157,9 @@ p {
 	background: url(../images/main2.jpg) center center no-repeat;
 	background-size: cover;
 	overflow: hidden;
-	
-}	
+}
 
 .room-feature {
-	
 	font-family: 'Montserrat', sans-serif;
 	color: #333;
 	float: right;
@@ -171,8 +172,8 @@ p {
 	padding-right: 1em;
 	height: 100%;
 	background: rgba(255, 255, 255, 0.7)
-
 }
+
 .room-feature2 {
 	font-family: 'Montserrat', sans-serif;
 	color: #333;
@@ -184,23 +185,22 @@ p {
 	padding-top: 20em;
 	padding-left: 2em;
 	padding-right: 1em;
-
 }
 
-.room-feature h1{
+.room-feature h1 {
  font-family: 'Montserrat', sans-serif;
  letter-spacing: -1px;
  font-size: 2.2em;
  margin-bottom: 5px;
 
 }
+
 .room-feature2 h1 {
  font-family: 'Montserrat', sans-serif;
  letter-spacing: -1px;
  font-size: 2.2em;
  margin-bottom: 5px;
  color: white;
-
 }
 
 .room-feature2 p {
@@ -209,40 +209,35 @@ p {
 
 .room-feature p, .room-feature2 p {
 	width: 90%;
-
 }
+
 .mobile-only {
 	display:none;
 	float: left;
 }
 
 .button {
-
 	text-decoration: none;
 	text-transform: uppercase;
-     letter-spacing: .5px;
-     font-size: .7em;
-     background: white;
-     color: black;
-     display: block;
-     text-align: center;
-     padding: 1em;
-     border: 1px solid #d8cbae;
-     border-radius: 4px;
-     width: 80%;
-     margin:0 auto 1.6em;
+    letter-spacing: .5px;
+    font-size: .7em;
+    background: white;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #d8cbae;
+    border-radius: 4px;
+    width: 80%;
+    margin:0 auto 1.6em;
 	float: left;
     padding:9px;
-    vertical-align: center;
-   
-	
-	
+    vertical-align: center;	
 }
+
 a.button:hover {
 	border: 1px solid black;
 	transition: all 0.3s ease;
-
-
 }
 
 .special {
@@ -264,20 +259,12 @@ a.special:hover {
 	width: 100%;
 	margin: 0;
 	background: #f8f8f8;
-
-
-	
 }
 
-
 .finds img {
-	
 	width: 80%;
 	margin-right: 5em;
-	margin-left: 5em;
-
-	
-	
+	margin-left: 5em;	
 }
 
 
@@ -286,33 +273,31 @@ a.special:hover {
 @media screen and (max-width:800px) {
 
     p {
-    font-size: .8em;
+    	font-size: .8em;
     }
 
     h1 {
-	font-size: 2.5em;
-	line-height: .8;
-
+		font-size: 2.5em;
+		line-height: .8;
 	}
     
 	.main {
-	width: 100%;
-	float: left;
-	height: 300px;
-	background-size: cover;
-	overflow: hidden;
-	
-	}	
-	.main2 {
-	width: 100%;
-	float: left;
-	height: 300px;
-	background-size: cover;
-	overflow: hidden;	
+		width: 100%;
+		float: left;
+		height: 300px;
+		background-size: cover;
+		overflow: hidden;
+		}	
 
+	.main2 {
+		width: 100%;
+		float: left;
+		height: 300px;
+		background-size: cover;
+		overflow: hidden;	
 	}	
+
 	.room-feature {
-		
 		float: right;
 		width: 40%;
 		text-align: left;
@@ -341,86 +326,87 @@ a.special:hover {
 		width: 80%;
 	}
 
+
 @media screen and (max-width:620px) {
+
     .desktop-only {
         display: none;
     }
 
 	#page-header nav ul li a {
-	padding: 30px 30px 20px 5px;
-	font-size: .9em;
-	text-align: center;
+		padding: 30px 30px 20px 5px;
+		font-size: .9em;
+		text-align: center;
 	}
 
 	#page-header .hamburger {
-	text-decoration: none;
- 	color: #f47e76;
-    font-size: 2em; 
-    margin: -8px;
+		text-decoration: none;
+	 	color: #f47e76;
+	    font-size: 2em; 
+	    margin: -8px;
 	}
 
     .mobile-only {
-        display: inline-block;
-        
+        display: inline-block;  
     }
+
 	.special {
 		background: #333;
 		color: white;
 		border: 1px solid white;
 		width: 60%;
 	}
-	.main {
-	width: 100%;
-	float: left;
-	height: 250px;
-	background-size: cover;
-	overflow: hidden;
-	
-	}	
-	.main2 {
-	width: 100%;
-	float: left;
-	height: 250px;
-	background-size: cover;
-	overflow: hidden;	
 
+	.main {
+		width: 100%;
+		float: left;
+		height: 250px;
+		background-size: cover;
+		overflow: hidden;
 	}	
+
+	.main2 {
+		width: 100%;
+		float: left;
+		height: 250px;
+		background-size: cover;
+		overflow: hidden;	
+	}
+
 	.room-feature {
-		
 		float: left;
 		width: 90%;
 		text-align: center;
 	
 	}
+
 	.room-feature2 {
-		
 		float: left;
 		width: 90%;
 		text-align: center;
-
 	}
 
 	.right-text h1{
-	margin: -.5em 0 0 0;
-
+		margin: -.5em 0 0 0;
 	}
 
 	.button {
 		margin-left: 15%;
 		margin-right: 10%;
-
 	}
+
+
 	@media screen and (max-width:400px) {
 
 	.right img {
-    padding: 0 0 0 4em;
-    width: 80%;
-    height: auto; 
-}
+	    padding: 0 0 0 4em;
+	    width: 80%;
+	    height: auto; 
+	}
 
    .finds img { 
-   	width: 100%;
-	margin-right: 0;
-	margin-left: 0;
-}
+	   	width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
 }
