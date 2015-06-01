@@ -385,26 +385,26 @@ a.special:hover {
 	}	
 	.room-feature {
 		
-		float: right;
-		width: 60%;
-		text-align: left;
+		float: left;
+		width: 90%;
+		text-align: center;
 	
 	}
 	.room-feature2 {
 		
-		float: right;
-		width: 60%;
-		text-align: left;
+		float: left;
+		width: 90%;
+		text-align: center;
 
-	}
-	.special {
-		background: #333;
-		color: white;
-		border: 1px solid white;
-		width: 60%;
 	}
 
 	.right-text h1{
 	margin: -.5em 0 0 0;
+
+	}
+
+	.button {
+		margin-left: 15%;
+		margin-right: 10%;
 
 	}
