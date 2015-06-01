@@ -265,16 +265,18 @@ a.special:hover {
 	margin: 0;
 	background: #f8f8f8;
 
+
 	
 }
 
 
 .finds img {
-	max-width: 60%;
-	height: auto;
-	padding-left: 20%;
-	padding-right: 20%;
-	z-index: 0;
+	
+	width: 80%;
+	margin-right: 5em;
+	margin-left: 5em;
+
+	
 	
 }
 
@@ -409,9 +411,16 @@ a.special:hover {
 
 	}
 	@media screen and (max-width:400px) {
+
 	.right img {
     padding: 0 0 0 4em;
     width: 80%;
     height: auto; 
+}
+
+   .finds img { 
+   	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
 }
 }
